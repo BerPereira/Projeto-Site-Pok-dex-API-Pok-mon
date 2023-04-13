@@ -1,0 +1,82 @@
+body {background:#FFF; color:#000}
+header h1 {font-size:42px;}
+nav {background:#AAA; width:100%}
+nav ul li a {color:#666; text-decoration:underline}
+nav ul li a:hover {text-decoration:none;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.one{
+	border-style: solid;
+	border-width: 5px;
+}
+
+body {
+	background: #EFEFBB;
+	background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+	background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+    color: black;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}
+	
+ul li {
+	list-style-type:none;
+	display:inline;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #000000;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 12px;
+	color:#FFFFFF;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	cursor:pointer;
+}
+
+ul li a {
+		font-family: 'Press Start 2P', cursive;
+		font-size: 12px;
+		color:#FFFFFF;
+		text-decoration:none;
+}
+
+ul li:hover{background-color:#FF0000;}
+
+img#myIndex {
+	filter:drop-shadow(8px 8px 10px gray);
+}
+
+.myElement {
+	display: inline-block;
+	margin: 0 0.5rem;
+  
+	animation: swing 6;
+
+	text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+}

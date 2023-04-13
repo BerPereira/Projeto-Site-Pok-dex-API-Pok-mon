@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+    <meta name="description" content="Site com formulário de contato."/>
+    <meta name="author" content="Bernardo Pereira"/>
+    <meta name="keywords" content="pokedex, bernardo, infnet, pokemon"/>
+    <meta name="robots" content="pokedex, bernardo, infnet, pokemon"/>
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width">
+    <link href="/visual/app.css" rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+	<title>Site de contato</title>
+</head>
+<body>
+	<header><h1>Formulário de contato</h1><header>
+	
+	<section>
+	<h2>Fale conosco!</h2>
+    <!-- <form method="post" action="enviar.php"> -->
+    <form method="post" id= "fContato" action = "mailto:email@email.com">
+    <fieldset id="fnome">
+      <p><label>Nome: </label><input name="name" placeholder="Seu Nome"></p>
+    </fieldset>
+    <br>
+    <fieldset id="femail">
+      <p><label>Email: </label>
+      <input name="email" type="email" placeholder="Seu email"></p>
+    </fieldset>
+    <br>
+    <fieldset id="fphone">
+      <label>Telefone: <input required name="tel" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}">
+      </label> (xx) xxxx-xxx
+      <input name="phone" type="submit" value="Enviar" placeholder="Seu telefone" >
+    </fieldset>
+    <br>
+    <fieldset id="fmsg">
+      <p><label>Mensagem: </label></p>
+      <p><textarea name="message" placeholder="O que deseja falar?"></textarea></p>
+    </fieldset>
+    <br>
+    <p><input id="submit" name="submit" type="submit" value="Submit"></p>
+    </form>
+    </section>
+	
+</body>
+</html>
